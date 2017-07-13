@@ -1,3 +1,9 @@
+body,html {
+
+    height: 100%;
+    margin: 0;
+}
+
 #header {
 	margin-top: 30px;
 }
@@ -64,7 +70,7 @@
 	/*border-radius: 10px;
 	//border-bottom: 2px solid #b02428;*/
 	background-color:#a31014;
-    
+
 }
 
 #menu{
@@ -101,3 +107,146 @@
   float: left;
 }
 /*ANIK STYLE END*/
+
+/*TING STYLE START*/
+.navbar{
+  margin-bottom:0 !important;
+}
+#frontTitle{
+  margin: 0 !important;
+   text-align: center;
+   color: white !important;
+   padding-top: 30%!important;
+}
+.homeImg {
+
+
+
+    background-image: url('Quad_ClockTower_Students.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.finalpage {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.center {
+  /*background-image: url("Quad_ClockTower_Students.jpg") no-repeat;*/
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.consent {
+  margin: 0 auto;
+
+  color: white;
+  background-color: #303030;
+  position: absolute;
+  text-align: center;
+}
+
+.txtConsent {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #b02428;
+  background-color: transparent;
+  color: white;
+}
+
+.button {
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  background-color: #525252;
+}
+
+.stateCountryZipcode {
+  width: 70%;
+}
+
+.nextButton {
+  width: 70%;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px;
+  cursor: pointer;
+  background-color: #b02428;
+}
+
+[type="radio"]:checked, [type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+[type="radio"]:checked+label, [type="radio"]:not(:checked)+label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+
+[type="radio"]:checked+label:before, [type="radio"]:not(:checked)+label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+
+[type="radio"]:checked+label:after, [type="radio"]:not(:checked)+label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #b02428;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/*TING STYLE END*/
