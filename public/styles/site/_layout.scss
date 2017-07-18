@@ -106,6 +106,53 @@ body,html {
 #menu img{
   float: left;
 }
+
+.box{
+	height: 300px;
+	width : 400px;
+    color: #b12428;
+	margin : 0 auto;
+	margin-top: 200px;
+	background-color: rgba(0,0,0,0.5);
+	padding-left: 30px;
+	padding-top: 60px;
+	border-radius: 15px;
+	border: 1px white solid;
+}
+#pass{
+	height: 35px;
+	width: 350px;
+	margin: 0 auto;
+	border-radius: 10px;
+	border :0;
+	padding-left: 10px;
+	border-bottom: 2px solid #b02428;
+	color:white;
+	background:transparent;
+	font-weight: bolder;
+}
+
+#sub{
+	height: 35px;
+	width: 200px;
+	padding-left: 10px;
+	align-self: center;
+	color:white;
+	font-weight: bolder;
+    margin-left: 80px;
+	/*border-radius: 10px;
+	//border-bottom: 2px solid #b02428;*/
+	background-color:#a31014;
+}
+
+#pic{
+  background-image: url("../images/Quad_ClockTower_Students.jpg");
+  height: 800px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*ANIK STYLE END*/
 
 /*TING STYLE START*/
@@ -119,15 +166,11 @@ body,html {
    padding-top: 30%!important;
 }
 .homeImg {
-
-
-
-    background-image: url('Quad_ClockTower_Students.jpg');
+    background-image: url('../images/Quad_ClockTower_Students.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .finalpage {
@@ -250,3 +293,4 @@ input[type=text] {
 }
 
 /*TING STYLE END*/
+		   
