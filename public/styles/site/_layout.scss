@@ -88,12 +88,11 @@ h1{
 
 .box{
 	height: 300px;
-	width : 400px;
+	max-width : 400px;
   color: #b12428;
 	margin : 0 auto;
 	margin-top: 200px;
 	background-color: rgba(0,0,0,0.5);
-
 	border-radius: 15px;
 	border: 1px white solid;
 }
@@ -260,15 +259,15 @@ input[type=text] {
   padding-top: 40% !important;
   font-size: 30px;
   }
-  .box {
-    height: 300px;
-    width: 300px;
+  .box{
+  	height: 300px;
+    min-width: 100%;
     color: #b12428;
-    margin: 0 auto;
-    margin-top: 200px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    border: 1px white solid;
+  	margin : 0 auto;
+  	margin-top: 200px;
+  	background-color: rgba(0,0,0,0.5);
+  	border-radius: 15px;
+  	border: 1px white solid;
   }
 }
 /*TING STYLE END*/
