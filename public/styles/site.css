@@ -5900,7 +5900,7 @@ h1 {
 
 .box {
   height: 300px;
-  width: 400px;
+  max-width: 400px;
   color: #b12428;
   margin: 0 auto;
   margin-top: 200px;
@@ -6055,7 +6055,7 @@ input[type=text] {
     font-size: 30px; }
   .box {
     height: 300px;
-    width: 300px;
+    min-width: 100%;
     color: #b12428;
     margin: 0 auto;
     margin-top: 200px;
